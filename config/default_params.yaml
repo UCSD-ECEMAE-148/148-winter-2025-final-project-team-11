@@ -1,0 +1,8 @@
+camera_centerline: 0.5
+confidence_threshold: 0.2
+debug_cv: 0
+error_threshold: 0.5
+iou_threshold: 0.5
+max_lost_frames: 30
+model_path: /home/projects/ros2_ws/src/robocar_visual_pursuit_pkg/models/v8-weights_openvino_2022.1_5shave-fast.blob
+use_sim_time: false
