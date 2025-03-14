@@ -1,0 +1,912 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ee03b216-2c32-4a2e-b8af-a58e010fc181")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 137.16 91.44) (xy 160.02 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba960d6-76a0-4b7a-aa8d-3d21f162fde4")
+	)
+	(wire
+		(pts
+			(xy 137.16 73.66) (xy 166.37 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "118617f7-6b21-473e-aa6c-7d9290cd6d7d")
+	)
+	(wire
+		(pts
+			(xy 166.37 73.66) (xy 166.37 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ec5573-feb2-4baf-b34b-4fe702de285c")
+	)
+	(wire
+		(pts
+			(xy 137.16 78.74) (xy 180.34 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "388aa294-4af8-427f-bdd4-d5983d58b384")
+	)
+	(wire
+		(pts
+			(xy 137.16 71.12) (xy 163.83 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46483c53-ba4f-4d13-8866-07ce7919d28c")
+	)
+	(wire
+		(pts
+			(xy 74.93 77.47) (xy 99.06 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "536a4db2-9ad1-4990-b63a-6a88df8fe456")
+	)
+	(wire
+		(pts
+			(xy 137.16 81.28) (xy 180.34 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa3a65f-748a-44a8-b768-f80ab7f1b01a")
+	)
+	(wire
+		(pts
+			(xy 161.29 68.58) (xy 161.29 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75ce91d2-5083-42ea-802b-7743b7078263")
+	)
+	(wire
+		(pts
+			(xy 161.29 48.26) (xy 180.34 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "783ea132-5d47-4360-b19d-10177f0e1965")
+	)
+	(wire
+		(pts
+			(xy 137.16 68.58) (xy 161.29 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b6ffa1d-8c57-40ef-b172-a3775e00f20e")
+	)
+	(wire
+		(pts
+			(xy 157.48 102.87) (xy 180.34 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8584396e-47f2-4ae0-a513-2c5a4e47671c")
+	)
+	(wire
+		(pts
+			(xy 74.93 74.93) (xy 99.06 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "873ed30b-4689-4501-b8ad-bea4f5f4bff5")
+	)
+	(wire
+		(pts
+			(xy 160.02 100.33) (xy 180.34 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "880ecb3a-2ce3-42fe-83ec-3607a483bd72")
+	)
+	(wire
+		(pts
+			(xy 163.83 71.12) (xy 163.83 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fdaf240-39a4-4214-be43-d3cfdfd9a928")
+	)
+	(wire
+		(pts
+			(xy 166.37 53.34) (xy 180.34 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95c52140-3d44-4e51-a366-dfbcb6aaee0b")
+	)
+	(wire
+		(pts
+			(xy 160.02 91.44) (xy 160.02 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab588fd5-45f6-4aa9-bf95-a476cd740c40")
+	)
+	(wire
+		(pts
+			(xy 157.48 93.98) (xy 157.48 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7fc1372-7e1f-47de-a4d4-5b63aeedc877")
+	)
+	(wire
+		(pts
+			(xy 163.83 50.8) (xy 180.34 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7587b3-cbad-4fab-ad2d-cfd6e93bebc0")
+	)
+	(wire
+		(pts
+			(xy 137.16 93.98) (xy 157.48 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e35ec870-a9d5-4a50-94d5-bc6d36b0e677")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 212.09 46.99 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ffd47e2-0051-4354-b405-e3846a90bc9c")
+		(property "Reference" "H1"
+			(at 214.63 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 214.63 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 212.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 212.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ECE148_Mainboard"
+				(path "/ee03b216-2c32-4a2e-b8af-a58e010fc181"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 212.09 54.61 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fce97c4-ada9-43c7-8ed3-08c624194b62")
+		(property "Reference" "H3"
+			(at 214.63 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 214.63 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 212.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 212.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ECE148_Mainboard"
+				(path "/ee03b216-2c32-4a2e-b8af-a58e010fc181"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 229.87 46.99 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85212c75-8da4-44aa-a36c-15fccea76aaa")
+		(property "Reference" "H2"
+			(at 232.41 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 232.41 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 229.87 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 229.87 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ECE148_Mainboard"
+				(path "/ee03b216-2c32-4a2e-b8af-a58e010fc181"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 229.87 54.61 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee088120-20f9-4af1-910a-bfce74277f1c")
+		(property "Reference" "H4"
+			(at 232.41 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 232.41 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 229.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 229.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ECE148_Mainboard"
+				(path "/ee03b216-2c32-4a2e-b8af-a58e010fc181"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 41.91)
+		(size 20.32 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "25c1d6ff-19e6-48b3-9fc4-dcb42a63d099")
+		(property "Sheetname" "Outputs"
+			(at 180.34 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Outputs.kicad_sch"
+			(at 180.34 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ONBOARD_LED_SIG" input
+			(at 180.34 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "88e2b765-2e3c-4251-ab04-b1e6f0e4738d")
+		)
+		(pin "BUZZER2" input
+			(at 180.34 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cd364c64-dadc-4631-bde4-df214aa4bacb")
+		)
+		(pin "BUZZER1" input
+			(at 180.34 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "98fa5ab7-a0fe-401d-9810-8fa55b3de97a")
+		)
+		(instances
+			(project "ECE148_Mainboard"
+				(path "/ee03b216-2c32-4a2e-b8af-a58e010fc181"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 92.71)
+		(size 20.32 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5dbfb05b-c273-41c9-95ba-a1ac8d6ee091")
+		(property "Sheetname" "Rear LEDs"
+			(at 180.34 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LEDs.kicad_sch"
+			(at 180.34 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_SIG" input
+			(at 180.34 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dd41cc63-db0f-4881-9326-8049b742e33c")
+		)
+		(pin "LED_PWM" input
+			(at 180.34 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ce8bbeba-5b23-4b5f-bfb3-81a2ffb3bbf9")
+		)
+		(instances
+			(project "ECE148_Mainboard"
+				(path "/ee03b216-2c32-4a2e-b8af-a58e010fc181"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 72.39)
+		(size 20.32 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6fccb978-096e-4942-8976-89926fdc2bdc")
+		(property "Sheetname" "Front LEDs"
+			(at 180.34 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LEDs.kicad_sch"
+			(at 180.34 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_SIG" input
+			(at 180.34 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "97f3749b-723c-4055-a118-272be316834c")
+		)
+		(pin "LED_PWM" input
+			(at 180.34 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e427e269-24fd-454b-bd68-a63eeec16769")
+		)
+		(instances
+			(project "ECE148_Mainboard"
+				(path "/ee03b216-2c32-4a2e-b8af-a58e010fc181"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 72.39)
+		(size 24.13 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b154c929-6911-463a-8ec9-739c5340db91")
+		(property "Sheetname" "PWR & USB"
+			(at 50.8 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PWR_&_USB.kicad_sch"
+			(at 50.8 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DP" bidirectional
+			(at 74.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "85c19e0d-cf1b-4e0e-8c29-0d41cfef5d1f")
+		)
+		(pin "DN" bidirectional
+			(at 74.93 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a338d4e0-a5cd-4e70-a89d-13f830e1a2db")
+		)
+		(instances
+			(project "ECE148_Mainboard"
+				(path "/ee03b216-2c32-4a2e-b8af-a58e010fc181"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 66.04)
+		(size 38.1 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f7da05b5-7ff7-4404-a3c0-2dcc4ddd37fc")
+		(property "Sheetname" "ESP32"
+			(at 99.06 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32.kicad_sch"
+			(at 99.06 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DP" bidirectional
+			(at 99.06 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "07f94958-15d5-4828-b47b-3c7ed5703a88")
+		)
+		(pin "DN" bidirectional
+			(at 99.06 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c3786046-e339-41b6-8f2c-30d6f5234266")
+		)
+		(pin "LED_PWM_REAR" output
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "38a48335-de30-4598-a200-9bded67b37b5")
+		)
+		(pin "LED_PWM_FRONT" output
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a6060ade-c135-4cbf-a717-73ef6cccbd4d")
+		)
+		(pin "LED_SIG_FRONT" output
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5afa4d92-d1ff-4c5f-9dcb-7f7bfbb73aed")
+		)
+		(pin "LED_SIG_REAR" output
+			(at 137.16 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "20379fa9-b51d-4515-856b-379eacf1497d")
+		)
+		(pin "ONBOARD_LED_SIG" output
+			(at 137.16 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "35612b8d-23d8-48a6-99a1-5a3dc5812371")
+		)
+		(pin "BUZZER1" output
+			(at 137.16 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b3e7ba4e-1135-4775-b8db-2a3166f1ee75")
+		)
+		(pin "BUZZER2" output
+			(at 137.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "36edeba2-a70f-43a7-be47-74c73a5e813b")
+		)
+		(instances
+			(project "ECE148_Mainboard"
+				(path "/ee03b216-2c32-4a2e-b8af-a58e010fc181"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -1,0 +1,220 @@
+(footprint "TraxxasLink"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -27.94 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d8f4aad1-2717-4c60-87f5-355326b6cbf2")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Value" "TraxxasLink"
+		(at 0 -25.94 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "986b679b-528c-49eb-8630-ff90bcc9d037")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "TraxxasLink"
+		(at 0 -22.86 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a01cff13-4f74-4291-8a43-99458dbc374e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -27.19 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2a3b435-d670-40ad-9cb5-4a72c02ad74b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -27.19 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e8812f8-5db3-43b9-905f-71b225f52274")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3.875 -22.135)
+		(end 33.955 3.655)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "64826c3a-47c1-4cf2-a245-0b6c70783440")
+	)
+	(fp_rect
+		(start -3.87473 -22.136015)
+		(end 10.625 3.653985)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "4607501e-8a31-46d2-a25c-5a34acb7c546")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -24.44 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bdc1599f-72a7-4775-ac98-408f743682e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b1dee535-d558-4a43-8291-b0a0144baf5d")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -2.54 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2405a1db-2624-4113-9195-573d1b6bd6b2")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -5.08 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "71665d37-db3b-4de5-9fe5-d9e55b8d8b8d")
+	)
+	(pad "4" thru_hole circle
+		(at 2.54 0 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0ffeb6f7-59f6-4781-8a44-70aa97e5cdad")
+	)
+	(pad "5" thru_hole circle
+		(at 2.54 -2.54 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d896fbe3-03b7-47ba-b9e9-1a3e0c1603ab")
+	)
+	(pad "6" thru_hole circle
+		(at 2.54 -5.08 180)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9fd4851b-6442-4c42-9510-cb399ed3aba2")
+	)
+	(pad "7" thru_hole circle
+		(at 5.08 0 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "571381e0-a859-4d30-8236-37c433aad9ad")
+	)
+	(pad "8" thru_hole circle
+		(at 5.08 -2.54 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "af51220e-19a6-404d-b80a-775ebfa136e4")
+	)
+	(pad "9" thru_hole circle
+		(at 5.08 -5.08 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ad6a8b61-6e03-4806-8082-9648e0974227")
+	)
+	(model "${KIPRJMOD}/CustomFootprints.pretty/Traxxas Link.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -180 0)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.wrl"
+		(offset
+			(xyz 0 2.54 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.wrl"
+		(offset
+			(xyz 0 5.08 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
