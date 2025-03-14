@@ -1,5 +1,5 @@
 # <div align="center">Autonomous Police Car</div>
-![Picture](markdown/image12.png){ width="800" height="600" style="display: block; margin: 0 auto" }
+![Picture](markdown/image12.png)
 ### <div align="center"> ECE 148 Final Project </div>
 #### <div align="center"> Team 11 Winter 2025 </div>
 <div align="center">
@@ -29,10 +29,10 @@
 <hr>
 
 ## Team Members
-MingWei Yeoh - ECE - 2025
-Trevor 
-Minh Quach
-Jose 
+* MingWei Yeoh - ECE - 2025
+* Trevor 
+* Minh Quach
+* Jose 
 
 <hr>
 
@@ -46,16 +46,16 @@ Mechanically it will be a challenge to mount all the electronics inside of a sma
 ## What We Promised
 
 ### Must Have
-LEDs
-Communication between LED controller and Jetson
-Body shell Mounting
-Chase the car
-Yolo running on OAK-D Camera
+* LEDs
+* Communication between LED controller and Jetson
+* Body shell Mounting
+* Chase the car
+* Yolo running on OAK-D Camera
 
 ### Nice to Have
-Cool PCB
-Clean Electronics mounting
-A Siren
+* Cool PCB
+* Clean Electronics mounting
+* A Siren
 <hr>
 
 ## Accomplishments
@@ -80,10 +80,10 @@ Link to the OnShape [CAD](https://cad.onshape.com/documents/6c423dcbeb2588a9d778
 
 ![alt text](markdown/image-2.png)
 
-__Green__ - Body shell mounting method. It uses 8x3mm magnets. 
-__Purple__ - Reference geometry from the car
-__Black__ - Structural 3D Printed pieces
-__Orange__ - 3D Printed Spacers
+* __Green__ - Body shell mounting method. It uses 8x3mm magnets. 
+* __Purple__ - Reference geometry from the car
+* __Black__ - Structural 3D Printed pieces
+* __Orange__ - 3D Printed Spacers
 
 The design is super clean and allows the body shell to easily cover all the electronics. 
 
@@ -108,6 +108,7 @@ __Additional Hardware Necessary__
 * Communication with Jetson via I2C
 * 3 Spare GPIOs (if needed)
 * Onboard VBAT -> 3V3 Buck regulator
+
 ![alt text](markdown/image-8.png)
 
 __Power__
@@ -117,11 +118,13 @@ Snippet from the schematic. 3 Low RDson PMOS' act like the switch. When the on b
 
 ### Assembly
 Hand Assembled. Theres a lot of parts
-![alt text](markdown/image-4.png)  ![alt text](markdown/image-7.png)
+![alt text](markdown/image-4.png)
 
 ### Bringup 
 __LEDS__
 ![alt text](markdown/rgbbringup.gif)
+</br>
+
 ![alt text](markdown/carlights.gif)
 __I2C__
 ESP32 acts as a peripheral device with address 0x55. It takes in a 2 byte command. 0x00 and 0x11. 
