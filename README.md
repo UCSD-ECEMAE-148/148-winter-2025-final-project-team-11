@@ -71,7 +71,7 @@ Mechanically it will be a challenge to mount all the electronics inside of a sma
 <hr>
 
 ## Final Project Videos
-@ MINH!!!!!!
+[![IMAGE ALT TEXT HERE](https://youtu.be/_BfZI85ATvo/0.jpg)](https://youtu.be/_BfZI85ATvo)
 <hr>
 
 ## Hardware 
